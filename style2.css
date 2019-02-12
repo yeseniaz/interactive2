@@ -10,7 +10,7 @@ width: 100%;
 }
 
 .centerStuffInHere {
-	min-height: 100vh;
+	min-height: 70vh;
 	display: grid;
 	align-items: center;
 	justify-items: center;
@@ -18,10 +18,10 @@ width: 100%;
 
 .letter {
 	position: relative;
-	width:180px;
-	height: 300px;
+	width: 100px;
+	height: 100px;
 	float:left;
-	margin-right: 25px;
+	margin-right: 5px;
 }
 
 .bar {
@@ -37,18 +37,18 @@ width: 100%;
 	top:0;
 }
 .bar.vertical.bottom {
-	top:122px
+	top:55px
 }
 .bar.vertical.left {
-	left:56px
+	left:31px
 }
 .bar.vertical.right {
-	left:178px
+	left:86px
 }
 
 .circle {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   border: 3px solid black;
   border-radius: 100%;
   position:absolute;
@@ -57,19 +57,19 @@ width: 100%;
 }
 
 .line {
-  width: 121px;
+  width: 52px;
   /* height: 47px; */
   border-bottom: 3px solid black;
   position:absolute;
-  left:30px;
+  left:17px;
   /* margin-top: -113px;
   margin-left: 288px; */
 }
 
 .circle2 {
-  width: 50px;
-  height: 50px;
-  left:122px;
+  width: 25px;
+  height: 25px;
+  left:55px;
   border: 3px solid black;
   border-radius: 100%;
   position:absolute;
@@ -78,12 +78,12 @@ width: 100%;
 }
 
 .line2 {
-  width: 121px;
+  width: 52px;
   /* height: 47px; */
   border-bottom: 3px solid black;
   position:absolute;
-  left: 30px;
-    top: 53px;
+  left: 17px;
+  top: 28px;
   /* margin-top: -55px;
   margin-left: 288px; */
 }
