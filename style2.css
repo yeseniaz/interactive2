@@ -18,6 +18,24 @@ width: 100%;
 	padding-top: 50px;
 }
 
+.page1 {
+	position: relative;
+	width:1000px;
+	height: 1600px;
+}
+
+.page2 {
+	position: relative;
+	width:1000px;
+	height: 1600px;
+}
+
+.page3 {
+	position: relative;
+	width:1000px;
+	height: 1600px;
+}
+
 .letter {
 	position: relative;
 	width:180px;
@@ -90,41 +108,41 @@ width: 100%;
   margin-left: 288px; */
 }
 
-.circle {
-  width: 25px;
-  height: 25px;
-  border: 3px solid blue;
+.circlecolor {
+  width: 35px;
+  height: 35px;
+  background-color: lightblue;
   border-radius: 100%;
   position:absolute;
   /* margin-top: 90px;
   margin-left: 250px; */
 }
 
-.line {
-  width: 52px;
+.linecolor {
+  width: 55px;
   /* height: 47px; */
-  border-bottom: 3px solid blue;
+  border-bottom: ;
   position:absolute;
   left:17px;
   /* margin-top: -113px;
   margin-left: 288px; */
 }
 
-.circle2 {
-  width: 25px;
-  height: 25px;
+.circle2color {
+  width: 35px;
+  height: 35px;
   left:55px;
-  border: 3px solid blue;
+  background-color: lightblue;
   border-radius: 100%;
   position:absolute;
   /* margin-top: -8px;
   margin-left: 380px; */
 }
 
-.line2 {
-  width: 52px;
+.line2color {
+  width: 55px;
   /* height: 47px; */
-  border-bottom: 3px solid blue;
+  border-bottom: ;
   position:absolute;
   left: 17px;
   top: 28px;
