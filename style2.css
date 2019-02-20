@@ -46,6 +46,11 @@ width: 100%;
 	margin-right: -25px;
 }
 
+.letter.letterf {
+	width:150px;
+}
+
+
 .letter.letteri {
 	width:130px;
 }
@@ -53,6 +58,31 @@ width: 100%;
 .letter.letter7 {
 	width:110px;
 }
+
+.letter.letterl {
+	width:160px;
+}
+
+.letter.letterl {
+	width:160px;
+}
+
+.letter.lettert {
+	width:150px;
+}
+
+.letter.letters {
+	width:200px;
+}
+
+.letter.letterm {
+	width:200px;
+}
+
+.letter.lettern {
+	width:200px;
+}
+
 
 .letter.letter1 {
 	width:120px;
