@@ -14,7 +14,7 @@ width: 100%;
 	display: grid;
 	align-items: center;
 	justify-items: center;
-	padding-left: 100px;
+	padding-left: 150px;
 	padding-top: 50px;
 }
 
@@ -24,20 +24,16 @@ width: 100%;
 	padding-left: 150px;
 	align-items: center;
 	justify-items: center;
-	width:780px;
 	height: 700px;
 }
 
 .page2 {
 	position: relative;
-	padding-left: 105px;
-	width:780px;
 	height: 800px;
 }
 
 .page3 {
 	position: relative;
-	width:780px;
 	height: 1600px;
 }
 
