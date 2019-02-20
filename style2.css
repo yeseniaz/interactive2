@@ -24,12 +24,13 @@ width: 100%;
 	padding-left: 150px;
 	align-items: center;
 	justify-items: center;
-	height: 700px;
+	height: 600px;
 }
 
 .page2 {
 	position: relative;
-	height: 800px;
+	padding-top: 100px;
+	height: 1800px;
 }
 
 .page3 {
@@ -48,6 +49,15 @@ width: 100%;
 .letter.letteri {
 	width:130px;
 }
+
+.letter.letter7 {
+	width:110px;
+}
+
+.letter.letter1 {
+	width:120px;
+}
+
 
 .letter:hover .bar .circle {
 	border-width:14px;
