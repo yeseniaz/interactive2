@@ -32,21 +32,38 @@ width: 100%;
 	display: grid;
 	align-items: center;
 	justify-items: center;
-	padding-left: 100px;
+	padding-left: 80px;
 }
+
 
 .centerStuffInHere4 {
 	min-height: 50vh;
 	display: grid;
 	align-items: center;
 	justify-items: center;
-	padding-left: 100px;
+	padding-left: 60px;
+}
+
+.centerStuffInHere5 {
+	min-height: 50vh;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding-left: 95px;
+}
+
+.centerStuffInHere6 {
+	min-height: 50vh;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	padding-left: 2px;
 }
 
 .page1 {
 	position: relative;
 	padding-top: 169px;
-	padding-left: 150px;
+	padding-left: 148px;
 	align-items: center;
 	justify-items: center;
 	height: 600px;
