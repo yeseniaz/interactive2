@@ -229,7 +229,7 @@ width: 100%;
 .line {
   width: 52px;
   /* height: 47px; */
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid lightpink;
   position:absolute;
   left:17px;
   /* margin-top: -113px;
@@ -239,7 +239,7 @@ width: 100%;
 
 .longLine {
   position: absolute;
-	border-bottom: 3px solid blue;
+	border-bottom: 3px solid lightpink;
 	transition: border-width 250ms ease;
 }
 
@@ -275,7 +275,7 @@ width: 100%;
 .line2 {
   width: 52px;
   /* height: 47px; */
-  border-bottom: 3px solid blue;
+  border-bottom: 3px solid lightpink;
   position:absolute;
   left: 17px;
   /* top: 28px; */
