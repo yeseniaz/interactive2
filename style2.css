@@ -125,6 +125,7 @@ width: 100%;
 }
 
 
+
 .letter:hover .bar .circle {
 	border-width:14px;
 }
@@ -133,6 +134,7 @@ width: 100%;
 }
 .letter:hover .bar .line {
 	border-width:14.8px;
+
 }
 .letter:hover .bar .line2 {
 	border-width:14.8px;
