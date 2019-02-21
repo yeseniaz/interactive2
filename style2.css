@@ -9,6 +9,7 @@ height: 100%;
 width: 100%;
 }
 
+
 .centerStuffInHere {
 	min-height: 70vh;
 	display: grid;
@@ -92,6 +93,7 @@ width: 100%;
 	position: relative;
 	padding-top: 100px;
 	height: 1200px;
+	width: auto;
 }
 
 .page3 {
