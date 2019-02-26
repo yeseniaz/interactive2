@@ -217,7 +217,7 @@ width: 100%;
 .circle {
   width: 31px;
   height: 31px;
-  border: 3px solid lightpink;
+  border: 3px solid blue;
   border-radius: 100%;
   position:absolute;
 	box-sizing:border-box;
@@ -229,7 +229,7 @@ width: 100%;
 .line {
   width: 52px;
   /* height: 47px; */
-  border-bottom: 3px solid lightpink;
+  border-bottom: 3px solid blue;
   position:absolute;
   left:17px;
   /* margin-top: -113px;
@@ -239,7 +239,7 @@ width: 100%;
 
 .longLine {
   position: absolute;
-	border-bottom: 3px solid lightpink;
+	border-bottom: 3px solid blue;
 	transition: border-width 250ms ease;
 }
 
@@ -263,7 +263,7 @@ width: 100%;
   width: 31px;
   height: 31px;
   left:55px;
-  border: 3px solid lightpink;
+  border: 3px solid blue;
   border-radius: 100%;
 	box-sizing:border-box;
   position:absolute;
@@ -275,7 +275,7 @@ width: 100%;
 .line2 {
   width: 52px;
   /* height: 47px; */
-  border-bottom: 3px solid lightpink;
+  border-bottom: 3px solid blue;
   position:absolute;
   left: 17px;
   /* top: 28px; */
