@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 50pt;
+	padding-top: 10px;
+  text-align: center;
+  margin-top:50px;
+	background-color: lightgrey;
+}
+
+.container {
+	position: relative;
+	display: grid;
+ 	grid-template-columns: repeat(3, 30vw);
+ 	grid-template-rows: 17vw;
+ 	grid-gap: 2.5vw;
+ 	padding: 2.5vw;
+ 	background-color: lightgrey;
+}
+
+
+.item {
+	height: 200px;
+	width: 200px;
+  border-radius: 100px;
+	background: black;
+	color: white;
+	margin: 10px auto;
+	padding: 50px;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	cursor: pointer;
+}
+
+#element-1:hover {
+	transform: rotate(90deg) scale(3);
+	opacity: .3;
+	background: pink;
+}
+
+#element-2:active {
+	background: orange;
+	opacity: 50;
+}
+
+#element-3:active {
+	opacity: 50;
+}
+
+#element-4:active {
+		opacity:2;
+		filter: blur(50px);
+	}
+
+#element-5:hover::after {
+	content: ':~)';
+	color: yellow;
+}
+
+#element-6:hover::after {
+	content: 'ahhh';
+	background-color: blue;
+	color: red;
+}
+
+#element-7:hover::after {
+	background-color: red;
+	color: orange;
+}
+
+#element-8:active {
+	opacity:5;
+	filter: drop-shadow(16px 16px 20px red) invert(75%);
+}
