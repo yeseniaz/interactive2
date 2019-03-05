@@ -44,5 +44,4 @@ element4.addEventListener('click',function(){
 element5.addEventListener('click', function(){
   this.classList.toggle('circle');
 })
-
-element16.addEventListener("drag", function();
+}

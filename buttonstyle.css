@@ -750,45 +750,91 @@ body {
 		}
 		}
 
-		}}}}}}
+		}}
 
 
 #element-25:hover {
-		-webkit-animation: element-25 0.8s ease-in-out infinite both;
-		        animation: element-25 0.8s ease-in-out infinite both;
-				}
-#element-25:active {}
-				@-webkit-keyframes element-25 {
-			0% {
-				-webkit-transform: scale(0.2);
-								transform: scale(0.2);
-				opacity: 0.8;
-			}
-			80% {
-				-webkit-transform: scale(1.2);
-								transform: scale(1.2);
-				opacity: 0;
-			}
-			100% {
-				-webkit-transform: scale(2.2);
-								transform: scale(2.2);
-				opacity: 0;
-			}
-			}
-			@keyframes element-25 {
-			0% {
-				-webkit-transform: scale(0.2);
-								transform: scale(0.2);
-				opacity: 0.8;
-			}
-			80% {
-				-webkit-transform: scale(1.2);
-								transform: scale(1.2);
-				opacity: 0;
-			}
-			100% {
-				-webkit-transform: scale(2.2);
-								transform: scale(2.2);
-				opacity: 0;
-			}
-			}}
+			transform: scale(50px);
+			;
+		}
+#element-25:active {
+			background: #lightyellow;
+			border-radius: 500px;
+					}
+
+
+#element-26:hover {
+	-webkit-animation: element-26 0.5s both;
+		        animation: element-26 0.5s both;
+							}
+#element-26:active {}
+			@-webkit-keyframes element-26 {
+		0% {
+		-webkit-transform: skew(0deg 0deg);
+						transform: skew(0deg 0deg);
+		}
+		30% {
+		-webkit-transform: skew(-25deg -25deg);
+						transform: skew(-25deg -25deg);
+		}
+		40% {
+		-webkit-transform: skew(15deg, 15deg);
+						transform: skew(15deg, 15deg);
+		}
+		50% {
+		-webkit-transform: skew(-15deg, -15deg);
+						transform: skew(-15deg, -15deg);
+		}
+		65% {
+		-webkit-transform: skew(5deg, 5deg);
+						transform: skew(5deg, 5deg);
+		}
+		75% {
+		-webkit-transform: skew(-5deg, -5deg);
+						transform: skew(-5deg, -5deg);
+		}
+		100% {
+		-webkit-transform: skew(0deg 0deg);
+						transform: skew(0deg 0deg);
+		}
+		}
+		@keyframes element-26 {
+		0% {
+		-webkit-transform: skew(0deg 0deg);
+						transform: skew(0deg 0deg);
+		}
+		30% {
+		-webkit-transform: skew(-25deg -25deg);
+						transform: skew(-25deg -25deg);
+		}
+		40% {
+		-webkit-transform: skew(15deg, 15deg);
+						transform: skew(15deg, 15deg);
+		}
+		50% {
+		-webkit-transform: skew(-15deg, -15deg);
+						transform: skew(-15deg, -15deg);
+		}
+		65% {
+		-webkit-transform: skew(5deg, 5deg);
+						transform: skew(5deg, 5deg);
+		}
+		75% {
+		-webkit-transform: skew(-5deg, -5deg);
+						transform: skew(-5deg, -5deg);
+		}
+		100% {
+		-webkit-transform: skew(0deg 0deg);
+						transform: skew(0deg 0deg);
+		}
+		}
+												}
+
+
+#element-27:hover {
+	-webkit-animation: element-27 3s linear 0s infinite normal ;
+  animation: element-27 3s linear 0s infinite normal ;
+ }
+#element-27:active {}
+
+}
