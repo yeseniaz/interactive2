@@ -45,7 +45,7 @@ circle4.addEventListener('transitionend',function(e){
   console.log(currentTransform)
   if(currentTransform == 'matrix(1, 0, 0, 1, 371, 0)'){
       console.log('you done did it')
-      circle3.classList.add('hyperspace')
+      circle4.classList.add('hyperspace')
   } else {
     console.log('you didnt done do it')
   }

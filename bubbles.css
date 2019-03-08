@@ -106,7 +106,7 @@ body {
     transform: translateX(371px);
   }
   to {
-    transform: translateX(400vw);
+    transform: translateX(-400vw);
   }
 }
 
