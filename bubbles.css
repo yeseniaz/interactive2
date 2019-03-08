@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding-top: 10px;
+	background-color: #D4C7B5;
+  padding-left: 80px;
+  cursor:pointer;
+}
+
+.circle1 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  position:absolute;
+  background: #CC884B;
+  margin-top:250px;
+  margin-left: 300px;
+  transition: transform 3000ms linear;
+}
+
+.circle1.hyperspace {
+  animation:circle1Hyperspace 1000ms 1 ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes circle1Hyperspace {
+  from {
+    transform: translateX(-375px);
+  }
+  to {
+    transform: translateX(200vw);
+  }
+}
+
+.circle2 {
+  width: 80px;
+  height: 80px;
+  position:absolute;
+  border-radius: 100%;
+  background: #A5565C;
+  margin-top:250px;
+  margin-left: 450px;
+  transition: transform 3000ms linear;
+}
+
+.circle2.hyperspace {
+  animation:circle2Hyperspace 1000ms 1 ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes circle2Hyperspace {
+  from {
+    transform: translateY(-260px);
+  }
+  to {
+    transform: translateY(200vw);
+  }
+}
+
+.circle3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #3C5870;
+  position:absolute;
+  margin-top: 250px;
+  margin-left: 600px;
+  transition: transform 3000ms linear;
+}
+
+.circle3.hyperspace {
+  animation:circle3Hyperspace 1000ms 1 ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes circle3Hyperspace {
+  from {
+    transform: translateY(272.5px);
+  }
+  to {
+    transform: translateY(-200vw);
+  }
+}
+
+.circle4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background: #4E5144;
+  position:absolute;
+  margin-top:250px;
+  margin-left: 750px;
+  transition: transform 3000ms linear;
+}
+
+.circle4.hyperspace {
+  animation:circle4Hyperspace 1000ms 1 ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes circle4Hyperspace {
+  from {
+    transform: translateX(371px);
+  }
+  to {
+    transform: translateX(400vw);
+  }
+}
+
+.circle1:hover {
+  transform: translateX(-375px);
+}
+
+.circle2:hover {
+  transform: translateY(-260px);
+}
+
+.circle3:hover {
+  transform: translateY(272.5px);
+}
+
+.circle4:hover {
+  transform: translateX(371px);
+}
