@@ -1,0 +1,112 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding-top: 10px;
+	background-color: lightgrey;
+  padding-left: 110px;
+  cursor:pointer;
+	font-family: 'Lato', sans-serif;
+	font-size: 12pt;
+	text-align: center;
+}
+
+.circle1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position:absolute;
+  background: #834141;
+	opacity: 3;
+	opacity: 20%;
+  margin-top:270px;
+  margin-left: 372px;
+  transition: transform 9000ms linear;
+}
+
+.circle1::after {
+	content: 'American';
+	color: white;
+	vertical-align: middle;
+	line-height: 150px;
+	font-size: 18pt;
+}
+
+.circle1:hover::after {
+	content: '"what are you?" "but what are you really?" "well you dont look like it" "i thought u were ______" "you are not welcome"';
+	color: white;
+	vertical-align: middle;
+	font-size: 150%;
+	line-height: 12pt;
+}
+
+
+.circle2 {
+  width: 150px;
+  height: 150px;
+  position:absolute;
+  border-radius: 100%;
+  background: #404A83;
+	opacity: 3;
+  margin-top:137px;
+  margin-left: 448px;
+  transition: transform 9000ms linear;
+}
+
+.circle2::after {
+	content: 'Nicaraguan';
+	color: white;
+	vertical-align: middle;
+	line-height: 150px;
+	font-size: 18pt;
+}
+
+.circle2:hover::after {
+	content: '"you speak like your mom" "you are just like her" "you have a mexican accent" "why do you dress like that?"';
+	color: white;
+	font-size: 150%;
+	line-height: 12pt;
+}
+
+
+.circle3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background: #4E5D60;
+	opacity: 3;
+  position:absolute;
+  margin-top: 270px;
+  margin-left: 525px;
+  transition: transform 9000ms linear;
+}
+
+.circle3::after {
+	content: 'Mexican';
+	color: white;
+	vertical-align: middle;
+	line-height: 150px;
+	font-size: 18pt;
+}
+
+.circle3:hover::after {
+	content: '"you look like your dad" "you are too americanized" "you are not like your siblings" "say that word again. it is funny when you say it."';
+	color: white;
+	font-size: 150%;
+	line-height: 12pt;
+}
+
+
+.circle1:hover {
+  transform: translateX(-550px);
+}
+
+.circle2:hover {
+  transform: translateY(-500px);
+}
+
+.circle3:hover {
+  transform: translateX(550px);
+}
