@@ -8,6 +8,8 @@ body {
 	background-color: #D4C7B5;
   padding-left: 80px;
   cursor:pointer;
+	width: 100vw;
+  height: 100vh;
 }
 
 .circle1 {
@@ -16,7 +18,7 @@ body {
   border-radius: 100%;
   position:absolute;
   background: #CC884B;
-  margin-top:250px;
+  margin-top: 250px;
   margin-left: 300px;
   transition: transform 3000ms linear;
 }
