@@ -8,38 +8,96 @@ body {
 	margin: 0;
 	background-color: black;
 	font-family: bigcity-grotesque-pro, sans-serif, thin;
-	font-size: 18pt;
+	font-size: 10pt;
 	color: white;
 	}
 
-h1,
-h3 {
-  text-align: center;
-}
+	#container .box {
+	  width:100vw;
+	  height:100vh;
+	  display:inline-block;
+	  position:relative;
+	}
 
-.blue-square-container {
-  text-align: center;
-}
+	#container .box > div {
+	  width:100px;
+	  height:100px;
+	  font-size:96px;
+	  color:#FFF;
+	  position:absolute;
+	  top:50%;
+	  left:50%;
+	  margin:-50px 0 0 -50px;
+	  line-height:.7;
+	}
 
-.blue-square {
-  background: url(nightsky.jpg);
-  width: 500px;
-  height: auto;
-  display: inline-block;
-}
+	#container {
+	  overflow-y:scroll;
+	  overflow-x:hidden;
+	  transform: rotate(270deg) translateX(-100%);
+	  transform-origin: top left;
+	  background-color:#999;
+	  position:absolute;
+	  width:100vh;
+	  height:100vw;
+	}
 
-.yellow-square {
-  background: url(nightsky3.jpg);
-  width: 100px;
-  height: 100px;
-  margin: 0 auto;
-}
+	#container2 {
+	  transform: rotate(90deg) translateY(-100vh);
+	  transform-origin: top left;
+	  white-space:nowrap;
+	  font-size:0;
+	}
 
-.green-square {
-  background: url(starfield.jpg);
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  left: 50%;
-  margin-left: -50px;
-}
+	p {
+  font-size: 30px;
+	}
+
+	p2 {
+  font-size: 20px;
+	}
+
+	.textheader{
+		font-size: 12pt;
+		letter-spacing: 1pt;
+		line-height:20pt;
+		text-align: center;
+	}
+
+	.text{
+		font-size: 8pt;
+		padding-left:350px;
+		letter-spacing: 1pt;
+		line-height:10.2pt;
+		margin-top: -10px;
+	}
+
+	.text2{
+		font-size: 8pt;
+		padding-left:350px;
+		letter-spacing: 1pt;
+		line-height:10.2pt;
+
+	}
+
+	.text3{
+		font-size: 8pt;
+		padding-left:350px;
+		letter-spacing: 1pt;
+		line-height:10.2pt;
+	}
+
+
+
+	.one {
+	  background-color: black;
+	}
+	.two {
+	  background-color: black;
+	}
+	.three {
+	  background-color: black;
+	}
+	.four {
+	  background-color: black;
+	}
