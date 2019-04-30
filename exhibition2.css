@@ -6,8 +6,11 @@
 body {
 	height: 100%;
 	margin: 0;
-	background-color: black;
-	font-family: bigcity-grotesque-pro, sans-serif, thin;
+	background-color: lightgrey;
+	background: lightgrey;
+	font-family: bigcity-grotesque-pro, sans-serif;
+	font-weight: 300;
+	font-style: normal;
 	font-size: 10pt;
 	color: white;
 	}
@@ -17,6 +20,7 @@ body {
 	  height:100vh;
 	  display:inline-block;
 	  position:relative;
+		background-color: lightgrey;
 	}
 
 	#container .box > div {
@@ -29,6 +33,7 @@ body {
 	  left:50%;
 	  margin:-50px 0 0 -50px;
 	  line-height:.7;
+		background-color: lightgrey;
 	}
 
 	#container {
@@ -40,6 +45,7 @@ body {
 	  position:absolute;
 	  width:100vh;
 	  height:100vw;
+		background-color: lightgrey;
 	}
 
 	#container2 {
@@ -47,29 +53,32 @@ body {
 	  transform-origin: top left;
 	  white-space:nowrap;
 	  font-size:0;
-	}
-
-	p {
-  font-size: 30px;
-	}
-
-	p2 {
-  font-size: 20px;
+		background-color: lightgrey;
 	}
 
 	.textheader{
-		font-size: 12pt;
+		font-size: 13pt;
 		letter-spacing: 1pt;
 		line-height:20pt;
 		text-align: center;
 	}
+
+	.textparagraph{
+		font-size: 8pt;
+		letter-spacing: 1pt;
+		line-height:15pt;
+		text-align: center;
+		column-width: 100px;
+	}
+
 
 	.text{
 		font-size: 8pt;
 		padding-left:350px;
 		letter-spacing: 1pt;
 		line-height:10.2pt;
-		margin-top: -10px;
+		top: 198px;
+		position: absolute;
 	}
 
 	.text2{
@@ -77,7 +86,8 @@ body {
 		padding-left:350px;
 		letter-spacing: 1pt;
 		line-height:10.2pt;
-
+		position: absolute;
+		top: 158px;
 	}
 
 	.text3{
@@ -85,19 +95,24 @@ body {
 		padding-left:350px;
 		letter-spacing: 1pt;
 		line-height:10.2pt;
+		position: absolute;
+		top: 187px;
 	}
 
 
 
 	.one {
-	  background-color: black;
+	  background-color: lightgrey;
 	}
 	.two {
-	  background-color: black;
+	  background-color: lightgrey;
 	}
 	.three {
-	  background-color: black;
+	  background-color: lightgrey;
 	}
 	.four {
-	  background-color: black;
+	  background-color: lightgrey;
+	}
+	.five {
+	  background-color: lightgrey;
 	}
