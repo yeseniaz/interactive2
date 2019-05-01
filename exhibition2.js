@@ -52,11 +52,13 @@ function magnify(imgID, zoom) {
   }
 }
 
-<script>
+
 /* Execute the magnify function: */
-magnify("myimage", 3);
+magnify("firstOne", 4);
+magnify("secondOne", 4);
+magnify("thirdOne", 4);
 /* Specify the id of the image, and the strength of the magnifier glass: */
-</script>
+
 
 
 window.addEventListener('resize',pageResized)

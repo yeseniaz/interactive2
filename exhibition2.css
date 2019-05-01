@@ -69,6 +69,7 @@ body {
 		line-height:15pt;
 		text-align: center;
 		column-width: 100px;
+		padding-left: 200px;
 	}
 
 
@@ -117,23 +118,26 @@ body {
 	  background-color: black;
 	}
 
-
 	.img-magnifier-container {
 	  position: relative;
+		cursor: none;
+	}
+
+	.img-magnifier-container:hover .img-magnifier-glass{
+		opacity: 1;
 	}
 
 	.img-magnifier-glass {
 	  position: absolute;
-	  border: 3px solid #000;
 	  border-radius: 50%;
 	  cursor: none;
-	  width: 10px;
-	  height: 10px;
+	  width: 100px;
+	  height: 100px;
+		opacity: 0;
 	}
 
 	@media only screen and (min-width:100px) and (max-width: 450px) {
 	  body {
 	    background-color: black;
-			transition:background 200ms ease;
 
 	  }
